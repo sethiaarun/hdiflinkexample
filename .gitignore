@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+target/*
+batch-examples/target/*
+common/target/*
+flink-example-common/target/*
+kafkastream-examples/target/*
