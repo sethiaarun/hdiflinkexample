@@ -36,6 +36,6 @@ To build the code run `mvn clean compile package`
 
 ## Running Flink Examples
 
-- [Running Batch Examples](batch/README.md)
+- [Running Batch Examples](batch-examples/README.md)
 
 - [Running Kafka Producer Example](kafkastream-examples/README.md)
