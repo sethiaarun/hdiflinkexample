@@ -18,11 +18,11 @@ You can submit the Flink job from the Azure portal in a couple of ways:
 ![jobconfig.png](../images/jobconfig.png)
 
 - Provide following inputs to run WordCount batch example with default input (from `src/main.resources/wordcount/data.txt`)
-    - Entry Class :  `WordCount`
+    - Entry Class :  `com.ms.hdi.flink.batch.WordCount`
     - Program Arguments: `--output abfs://<your-container>@<azure-storage-account>.dfs.core.windows.net/<output object-path>`
 
 - Provide following inputs to run WordCount batch example with custom input
-    - Entry Class :  `WordCount`
+    - Entry Class :  `com.ms.hdi.flink.batch.WordCount`
     - Program Arguments: `--input abfs://<your-container>@<your-azure-account>.dfs.core.windows.net/<input object-path> --output  abfs://<your-container>@<your-azure-account>.dfs.core.windows.net/<output object-path>`
 
 You can read or write to other storage accounts; there are multiple ways you can achieve the same:

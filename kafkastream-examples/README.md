@@ -44,7 +44,7 @@ You can run the Flink stream job from the Azure portal in a couple of ways:
    ![streamproducerjobdef](../images/streamproducerjobdef.png)
 
 - Provide following inputs to run kafka stream producer example
-    - Entry Class :  `FlinkKafkaCustomerProducer`
+    - Entry Class :  `com.ms.hdi.hilo.flink.stream.kafka.producer.FlinkKafkaCustomerProducer`
     - Program Arguments: `--topicName <topic name> --kafkaBootstrapServers '<kafka brokers>'`
 
 You can get list of kafka brokers from the Kafka head node (variable value from Environment Variable Setup  $KAFKABROKERS)
